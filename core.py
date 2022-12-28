@@ -1,6 +1,8 @@
+import mechanicalsoup
+import re
+import time
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
-import re
 
 
 def open_site(url: str, decode: str = "utf-8"):
